@@ -4,16 +4,15 @@
     box-sizing: border-box;
   }
   body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   header {
-      height: 100vh;
-      background-image: url('images/images\ \(20\).jpg');
+      background-image: url('');
+      color: black;
   }
 
   nav {
     height: 70px;
-    background: #5b78c7;
   }
   
   .nav-links {
@@ -49,6 +48,9 @@
     width: 100% !important;
     opacity: 1 !important;
 }
+.mobile {
+  display: none;
+}
 .calm {
     display: flex;
     width: 10%;
@@ -61,30 +63,108 @@
     text-transform: uppercase;
     color: white;
 }
+.headercontent {
+  display: flex;
+  padding: 5%;
+}
+.content1 {
+  width: 100%;
+}
 
-.form {
-    margin-top: 10%;
-    width: 100%;
-    padding: 5%;
+.content1 h1 {
+  font-size: 48px;
+  margin-top: 10%;
+  line-height: 1.5;
 }
+
+.content1 .lorem0 {
+  margin-top: 5%;
+  font-size: 14px;
+  width: 80%;
+  line-height: 2;
+}
+
+.content1 .lorem1 {
+  margin-top: 15%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 form {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  margin-top: 10%;
 }
+
 .email {
-    width: 80%;
-    border: 2px solid #5b78c7;
-    border-radius: 10px;
-    padding: 1%;
+  padding: 1%;
+  height: 49px;
+  width: 45%;
+  border-radius: 5px;
+  border:  1.5px solid linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
 }
 .submit {
-    width: 10%;
-    background: #5b78c7;
-    border-radius: 10px;
-    color: white;
-    border: none;
+  padding: 1%;
+  height: 49px;
+  width: 30%;
+  border-radius: 5px;
+  margin-left: 10%;
+  background: linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
+  border: none;
+  color: white;
 }
+.content2 {
+  width: 100%;
+}
+.content2 img {
+  margin-left: 30%;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.firstsec {
+  padding: 5%;
+}
+
+.firstsecin {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  border: 1.5px solid #451705;
+  height: 300px;
+  width: 25%;
+  border-radius: 5px;
+  padding: 1%;
+  text-align: center;
+}
+.prebrain {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 20%;
+  padding: 5%;
+  margin-top: 5%;
+  margin-left: 38%;
+}
+.brain {
+  height: 30px;
+  width: 100%;
+}
+.bold {
+  font-size: 18px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.lorem2 {
+  line-height: 2;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
   
   @media screen and (max-width: 768px) {
     .line {
@@ -154,24 +234,6 @@ form {
         font-size: 25px;
         top: 15px;
     }
-    form {
-        display: grid;
-    }
-    .email {
-        width: 100%;
-    }
-    .submit {
-        width: 50%;
-        margin-left: 25%;
-    }
-    header {
-        height: 80vh;
-    }
-    .form {
-        margin-top: 50%;
-    }
-    .submit {
-        height: 30px;
-    }
+   
   }
   

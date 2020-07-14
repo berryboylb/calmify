@@ -5,39 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" defer></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js" defer></script> 
     <title>Project Calmify</title>
   </head>
   <body>
     <header>
+        
         <nav>
-            <div class="calm">calmify</div>
+            <div class="calm"><a href="index.html"><img src="images/Frame 2572.png" alt=""></a></div>
             <div class="hamburger">
               <div class="line"></div>
               <div class="line"></div>
               <div class="line"></div>
             </div>
             <ul class="nav-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">blog</a></li>
-              <li><a href="#">Services</a></li>
+              <li class="mobile"><a href="#">About</a></li>
+              <li class="mobile"><a href="#">Contact</a></li>
+              <li class="mobile"><a href="#">Projects</a></li>
+              <li class="mobile"><a href="#">blog</a></li>
+              <li class="mobile"><a href="#">Services</a></li>
+              <li ><a href="#"><img src="images/Group 39.png" alt=""></a></li>
             </ul>
           </nav>
           <div></div>
-          <section class="form">
+          <div class="headercontent">
+            <div class="content1">
+              <h1>Controlling Your Anger with Music is Our Goal</h1>
+            <p class="lorem0">Our anger management app records your voice in 2 decibel states (Resting and aggravated ) and plays a tune to help you calm down.</p>
+            <p class="lorem1">Coming Soon! Get Notified when we launch</p>
             <form action="https://formspree.io/meqrpkqo" method="post">
-                <input class="email" type="email" name="email" Placeholder="Your email address"></br></br>
-                <input class="submit" type="submit" value="NOTIFY ME">
-             </form>
-        </section>
+          
+              <input class="email" type="email" name="email" Placeholder="Your email address"></br></br>
+              <input class="submit" type="submit" value="NOTIFY ME">
+           </form>
+            </div>
+            <div class="content2">
+              <img src="images/Group 48.png" alt="">
+            </div>
+            <img class="bg" src="images/Rectangle 11.png" alt="">
+          </div>
+          
     </header>
-   
+    <section class="firstsec">
+      <div class="firstsecin">
+        <div class="box">
+          <div class="prebrain"><img class="brain" src="images/icons8_brain_200px_1 2.png" alt=""></div>
+          <p class="bold">Fully Secured</p>
+          <p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</p>
+        </div>
+        <div class="box">
+          <div class="prebrain"><img class="brain" src="images/icons8_brain_200px_1 2.png" alt=""></div>
+          <p class="bold">Retina Friendy</p>
+          <p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</p>
+        </div>
+        <div class="box">
+          <div class="prebrain"><img class="brain" src="images/icons8_brain_200px_1 2.png" alt=""></div>
+          <p class="bold">Small size</p>
+          <p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="seconsecin">
+        <div>
+          <img src="images/Group 48.png" alt="">
+          <img src="images/Group 48.png" alt="">
+        </div>
+        <div>
+          <h3>How does this App Work ?</h3>
+        </div>
+      </div>
+    </section>
 
     <script src="app.js"></script>
   </body>
