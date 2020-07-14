@@ -209,11 +209,13 @@ form {
   position: relative;
   z-index: -2;
   margin-top: -20%;
+  width: 100%;
 }
 .vector4 {
   position: relative;
   z-index: -3;
   margin-top: -40%;
+  width: 100%;
 }
 .thirdsec {
   padding: 5%;
