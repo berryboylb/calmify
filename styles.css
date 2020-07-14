@@ -164,6 +164,119 @@ form {
   font-size: 18px;
   margin-top: 5%;
 }
+.secondsec {
+  margin-top: 10%;
+}
+.secondsecin {
+  display: flex;
+}
+.twinimg {
+  width: 100%;
+  margin-left: 5%;
+}
+.scale {
+  height: 500px;
+  position: relative;
+  margin-bottom: 40px;
+  z-index: -1;
+  margin-left: -10%;
+}
+.twincontent {
+  margin-right: 5%;
+}
+.twincontent h3 {
+  font-size: 36px;
+}
+.features {
+  margin-top: 10%;
+}.feat {
+  font-size: 18px;
+  margin-top: 10%;
+}
+.featstats {
+  font-size: 18px;
+  display: block;
+}
+.fa {
+  color: blue;
+  padding: 1%;
+  height: 50px;
+}
+
+.vector3 {
+  position: relative;
+  z-index: -2;
+  margin-top: -20%;
+}
+.vector4 {
+  position: relative;
+  z-index: -3;
+  margin-top: -40%;
+}
+.thirdsec {
+  padding: 5%;
+}
+.thirdsecin {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.thirdsec h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.box1 {
+  border: none;
+  height: 300px;
+  width: 25%;
+  border-radius: 5px;
+  padding: 1%;
+  text-align: center;
+  background: linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
+  color: white;
+}
+.phones {
+  margin-top: 10%;
+}
+.phones h1 {
+  font-size: 36px;
+}
+.phonesin {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.phonesin img {
+  height: 300px;
+}
+.comingsoon {
+  margin-top: 10%;
+}
+.nemail {
+  padding: 1%;
+  height: 49px;
+  width: 30%;
+  border-radius: 5px;
+  border:  1.5px solid linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
+  margin-left: 25%;
+}
+.nsubmit {
+  padding: 1%;
+  height: 49px;
+  width: 15%;
+  border-radius: 5px;
+  margin-left: 5%;
+  background: linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
+  border: none;
+  color: white;
+}
+.footer {
+  height: 10px;
+  padding: 5%;
+  background: #112C50;
+  display: flex;
+  justify-content: space-between;
+}
 
   
   @media screen and (max-width: 768px) {
