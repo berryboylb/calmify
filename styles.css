@@ -173,6 +173,7 @@ form {
 .twinimg {
   width: 100%;
   margin-left: 5%;
+  display: flex;
 }
 .scale {
   height: 500px;
@@ -180,6 +181,7 @@ form {
   margin-bottom: 40px;
   z-index: -1;
   margin-left: -10%;
+  top: 100px;
 }
 .twincontent {
   margin-right: 5%;
