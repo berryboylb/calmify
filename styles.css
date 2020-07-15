@@ -42,7 +42,7 @@
     margin: auto !important;
     transition: all .4s !important;
     opacity: 0 !important;
-    background-color: #E6B001 !important;
+    background-color: linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%) !important;
 }
 .nav-links li a:hover::after{
     width: 100% !important;
@@ -112,6 +112,9 @@ form {
   border: none;
   color: white;
 }
+iframe {
+  margin-top: 5%;
+}
 .content2 {
   width: 100%;
 }
@@ -128,6 +131,9 @@ form {
 
 .firstsec {
   padding: 5%;
+}
+.firstsec i {
+  color: blue;
 }
 
 .firstsecin {
@@ -238,6 +244,9 @@ form {
   text-align: center;
   background: linear-gradient(135.92deg, #0051BE 0%, #7FE8F3 100%);
   color: white;
+}
+#atom {
+  font-size: 60px;
 }
 .phones {
   margin-top: 10%;
